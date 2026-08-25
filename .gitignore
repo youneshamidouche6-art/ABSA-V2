@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Environnements
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Modèles ML locaux
+models/*
+!models/.gitkeep
+
+# Données brutes volumineuses
+data/raw/*
+
+# Artefacts intermédiaires volumineux
+data/interim/dataset_20k_purifie_v2.csv
+data/interim/pseudo_labels_fewshot.csv
+
+# Logs / cache
+logs/
+.cache/
+*.log
+
+# ML tracking local
+mlruns/
+artifacts/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
