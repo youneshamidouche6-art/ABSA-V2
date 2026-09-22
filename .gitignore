@@ -35,9 +35,10 @@ logs/
 .cache/
 *.log
 
-# ML tracking local
+# MLflow local
+mlflow.db
 mlruns/
-artifacts/
+mlartifacts/
 
 # Python packaging
 build/

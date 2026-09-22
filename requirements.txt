@@ -3,3 +3,6 @@ numpy
 matplotlib
 scikit-learn
 iterative-stratification
+mlflow
+torch
+transformers
